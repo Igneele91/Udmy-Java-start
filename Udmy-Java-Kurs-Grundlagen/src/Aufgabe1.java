@@ -29,6 +29,8 @@ public class Aufgabe1 {
 		System.out.println("Sein Nachname  ist: " + Nachname );
 		System.out.println(" Er hat ein Alter von: " + alter1 );
 		System.out.println("Sein Auto hat einen Wert von: " + autoKosten1 + " Euro " );
+		
+		System.out.println("Sein Vorname   ist: " + vorname + " und Nachname: " + Nachname + " Er hat ein Alter von: " + alter1  + " Sein Auto hat einen Wert von: " + autoKosten1 + " Euro " );
 	}
 
 }
