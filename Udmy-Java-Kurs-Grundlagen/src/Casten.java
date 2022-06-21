@@ -35,7 +35,7 @@ public class Casten {
 		System.out.println(" der gesamt Preis von Auto 1 und 2 ist =  " + gesamtPreis + " Dollar");
 		
 		
-		int autoPreis76 = (int) 3450.45; // kanst es auch mal mit double probieren
+		int autoPreis76 = (int) 3450.45; // habs mit int hier gemacht.
 		int autoPreis77 = (int) 2690.45;
 		int gesamtPreisV = autoPreis76 + autoPreis77;
 		System.out.println(" der gesamt Preis von Auto 76 und 77 ist =  " + gesamtPreisV + " Dollar ");
