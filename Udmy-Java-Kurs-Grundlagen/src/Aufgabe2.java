@@ -19,9 +19,12 @@ public class Aufgabe2 {
 		 * 4. Gesamtbetrag ausgeben mit Hilfe von System.out.println(""); 
 		 */
 		
-		int autoKosten1 = (int) 3500 ;
-		int autoKosten2 = (int) 2340.48;
-		int gesamtAutokosten = autoKosten1 + autoKosten2 ;
+		int autoKosten1 =  3500 ;
+		double autoKosten2 = 2340.48;
+		
+		int autoKosten2GanzZahl = (int)autoKosten2;        // weil wegen der bezeichnung nicht wie voreher am anfagn schon geht aber auch. 
+		
+		int gesamtAutokosten = autoKosten1 + autoKosten2GanzZahl ;
 		
 		System.out.println(" Gesamtkosten des Autos sind: " + gesamtAutokosten );
 		
