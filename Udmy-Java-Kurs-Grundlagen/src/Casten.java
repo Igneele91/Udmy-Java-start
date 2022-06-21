@@ -52,6 +52,8 @@ public class Casten {
 		 * float  =    4 byte
 		 * long   =    8 byte
 		 * 
+		 * boolean =  kann nicht umgewandelt werden !!!      Wichtig !!
+		 * 
 		 */
 		
 		
