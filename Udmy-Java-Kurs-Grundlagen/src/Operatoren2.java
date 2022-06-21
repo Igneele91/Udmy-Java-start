@@ -18,6 +18,7 @@ public class Operatoren2 {
 		 * }
 		 * 
 		 */
+		
 		// if = zu Deutsch falls
 		// else ansonsten
 		
