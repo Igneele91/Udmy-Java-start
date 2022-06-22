@@ -27,6 +27,8 @@ public class UnterschiedForWhile {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Drücke 1 für Schwierigkeitsgrad leicht \n Drücke 2 für Schwierigkeitsgrad Mittel");
 		
+		scan.close();
+		
 		// wenn man nicht weiss wie oft man die schleife braucht 
 		int userEingabe = scan.nextInt();
 		int anzahlGegner = 0;
