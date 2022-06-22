@@ -8,13 +8,13 @@ public class testscani {                   // ist nur Zusatz übung
 		// d.h. Werte einlesen wie z.B. Zahlen
 
 		
-		Scanner scanner = new Scanner(System.in);    // System.in = Input = tastatur
+		Scanner scannero = new Scanner(System.in);    // System.in = Input = tastatur
 		
-		int zahli  = scanner.nextInt();
+		int zahli  = scannero.nextInt();
 				
 		System.out.println(zahli);
 		
-		scanner.close();   // und die eingabe wieder schliessen  = immer so ein close rein tun
+		scannero.close();   // und die eingabe wieder schliessen  = immer so ein close rein tun
 		
 		
 		/*
