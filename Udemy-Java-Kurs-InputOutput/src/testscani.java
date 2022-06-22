@@ -10,7 +10,7 @@ public class testscani {                   // ist nur Zusatz übung
 		
 		Scanner scanner = new Scanner(System.in);    // System.in = Input = tastatur
 		
-		
+		// Was kann einglesen werden ?
 		
 		// nextInt()     -    Int
 		// nextFloat()   -    Float
