@@ -38,7 +38,7 @@ public class AufgabeVerzweigung {
 			System.out.println("Das ist falsch ");
 		}	
 		
-		
+		scan.close();
 		
 	}
 
