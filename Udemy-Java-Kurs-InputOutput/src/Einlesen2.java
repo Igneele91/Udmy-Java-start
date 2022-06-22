@@ -28,6 +28,18 @@ public class Einlesen2 {
 		
 		
 		
+		Scanner scan44 = new Scanner(System.in);
+		String names = scan44.next();
+		int alteri = scan44.nextInt();
+				
+		System.out.println(" Name: " + names + " Alter: " + alteri);
+		
+		// einfach in konsole eintippen weil du startes ja das Programm
+		
+		
+		
+		
+		
 	}
 
 }

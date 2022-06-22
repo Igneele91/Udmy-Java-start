@@ -7,6 +7,8 @@ public class Main {
 		
 		Auto bmw = new Auto();                          // das ist eine komplexe Variabel
 		bmw.preis = 6000.50;
+		bmw.reifen = 4;
+		
 		
 		
 		
