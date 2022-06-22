@@ -5,7 +5,8 @@ public class Main {
 		// TODO Auto-generated method stub
 
 		
-		Auto BMW = new Auto();                          // das ist eine komplexe Variabel
+		Auto bmw = new Auto();                          // das ist eine komplexe Variabel
+		bmw.preis = 6000.50;
 		
 		
 		
