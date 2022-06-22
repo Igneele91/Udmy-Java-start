@@ -10,6 +10,20 @@ public class testscani {                   // ist nur Zusatz übung
 		
 		Scanner scanner = new Scanner(System.in);    // System.in = Input = tastatur
 		
+		int zahli  = scanner.nextInt();
+				
+		System.out.println(zahli);
+		
+		scanner.close();   // und die eingabe wieder schliessen  = immer so ein close rein tun
+		
+		
+		/*
+		 * 
+		 * System.out.println(" Gib eine Zahl ein: " + reintippen);
+		 * String reintippen = scanner.next();
+		 */
+		
+		
 		// Was kann einglesen werden ?
 		
 		// nextInt()     -    Int
