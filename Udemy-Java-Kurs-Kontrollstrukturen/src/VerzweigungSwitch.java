@@ -52,6 +52,8 @@ public class VerzweigungSwitch {
 				 }
 				
 				
+		scan.close();
+		
 		}
 		
 		
