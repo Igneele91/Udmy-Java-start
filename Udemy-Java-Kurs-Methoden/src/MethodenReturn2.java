@@ -25,8 +25,8 @@ public class MethodenReturn2 {
 
 		summe = a + b;
 
-		return summe;
-
+		return summe; // schlüsselwort heraus weil es von oben durch di methode definiert wurde zuerst runter
+                          // dan wieder hinauf runter weil es oben definiert wurde
 	}
 
 }
