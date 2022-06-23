@@ -21,8 +21,8 @@ public class Methoden2 {
 	}
 
 	public static void erstelleGegner() {
-		String gegnerName = "Olaf";
-		int gegnerLeben = 100;
+		// String gegnerName = "Olaf";              achtung hier noch nicht verwendbar im nexten file
+		// int gegnerLeben = 100;
 		System.out.println("Gegner wurde erstellt");
 
 	}
