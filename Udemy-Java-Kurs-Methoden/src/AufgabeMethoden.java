@@ -9,36 +9,31 @@ public class AufgabeMethoden {
 		 * Aufgabe:
 		 * 
 		 * 
-		 * 1. Wert: 3.547
-		 * 2. Wert: 6.354
+		 * 1. Wert: 3.547 2. Wert: 6.354
 		 * 
-		 * Defieniere (erstelle) eine Methode die als Aufgabe hat, diese zwei Werte zu multiplizieren (mal nimmt)
-		 * Diese Werte sollen dabei als Parameter an die Methode übergeben werden
+		 * Defieniere (erstelle) eine Methode die als Aufgabe hat, diese zwei Werte zu
+		 * multiplizieren (mal nimmt) Diese Werte sollen dabei als Parameter an die
+		 * Methode übergeben werden
 		 * 
-		 * Der Wert der errechnet wird soll dabei zurückgegeben werden, sodass wir den Wert in der Konsole ausgeben können.
+		 * Der Wert der errechnet wird soll dabei zurückgegeben werden, sodass wir den
+		 * Wert in der Konsole ausgeben können.
 		 * 
-		 *  
+		 * 
 		 */
-		
-		
-		double a = summe();
-		System.out.println(" Der Wert aus der Methode summ() ist : " + a);
 
-	//	double summe = b - a;
-		// System.out.println(" Der Wert in summe ist: " + a);
-		
+		double zahl1 = 3.547;
+		double zahl2 = 6.354;
+
+		double ergebnis = multipliziren(zahl1, zahl2);
+
+		System.out.println(" Das Resultat ist: " + ergebnis);
+
 	}
 
-	public static double summe() {
-		double a, b, summe ;
-		a = 3.547;
-		b = 6.354;
+	public static double multipliziren(double zahl1, double zahl2) {
+		double ergebnis = zahl1 * zahl2;
 
-		summe = a * b;
-		
-	
-	
-		return summe;
+		return ergebnis;
 	}
-	
+
 }
