@@ -17,6 +17,9 @@ public class Methode2Half {
 //			// System.out.println();
 //		}
 
+		erstelleGegner(" Peter hat:  ", 100 );
+		erstelleGegner(" Olaf  hat:  ",  200);
+		
 	}
 
 //		public static void erstelleGegner() {
@@ -25,7 +28,10 @@ public class Methode2Half {
 //			System.out.println("Gegner wurde erstellt");
 //						
 
-	public static void erstelleGegner() {
+	public static void erstelleGegner(String name, int lebenspunkte) {
+		String gegnerName = name;
+		int gegnerLeben = lebenspunkte;
+		System.out.println(" Gegner wurde erstellt !  " + gegnerName + " LP: " + gegnerLeben);
 
 	}
 
