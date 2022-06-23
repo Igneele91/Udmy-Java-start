@@ -4,7 +4,7 @@ public class Methode2Half {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		// Modifikator Rückgabetyp Methodenname ( Datentyp Parameter1, Datentyp
+		// <Modifikator Rückgabetyp Methodenname ( Datentyp Parameter1, Datentyp
 		// Parameter2 )>
 		// Ein Modifikator gibt den Sichtbereich der Methoden an, es gibt public, privat
 		// und protected
